@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_usuarioModel.Store" Provider="Devart.Data.MySql" ProviderManifestToken="MySQL, 5.7.9" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_usuarios">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nm_usuario" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ds_login" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ds_senha" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fl_tipo" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="fl_ativo" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="cd_setor" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="db_usuarioModelStoreContainer">
+    <EntitySet Name="tb_usuarios" EntityType="Self.tb_usuarios" Schema="db_usuario" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

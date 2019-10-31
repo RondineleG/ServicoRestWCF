@@ -1,0 +1,5 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="ServicoRest.ServiceAluno" 
+    CodeBehind="ServiceAluno.svc.cs"
+    Factory=System.ServiceModel.Activation.WebScriptServiceHostFactory  
+    %>

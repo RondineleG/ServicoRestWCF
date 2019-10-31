@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Evolutec\Desktop\Quinta\ServicoRestWCF\ServicoRest\bin\Release\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app.config">
+      <publishTime>10/09/2019 13:32:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/14/2019 17:01:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/14/2019 17:01:36</publishTime>
+    </File>
+    <File Include="bin/ServicoRest.dll">
+      <publishTime>10/10/2019 09:15:53</publishTime>
+    </File>
+    <File Include="bin/ServicoRest.pdb">
+      <publishTime>10/10/2019 09:15:53</publishTime>
+    </File>
+    <File Include="ModeloDataBase.edmx.diagram">
+      <publishTime>10/09/2019 08:39:46</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/10/2019 09:16:04</publishTime>
+    </File>
+    <File Include="ServiceAluno.svc">
+      <publishTime>10/09/2019 09:22:58</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/10/2019 09:15:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

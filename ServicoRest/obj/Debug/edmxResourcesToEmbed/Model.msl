@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_usuarioModelStoreContainer" CdmEntityContainer="db_usuarioEntities">
+    <EntitySetMapping Name="tb_usuarios">
+      <EntityTypeMapping TypeName="db_usuarioModel.tb_usuarios">
+        <MappingFragment StoreEntitySet="tb_usuarios">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nm_usuario" ColumnName="nm_usuario" />
+          <ScalarProperty Name="ds_login" ColumnName="ds_login" />
+          <ScalarProperty Name="ds_senha" ColumnName="ds_senha" />
+          <ScalarProperty Name="fl_tipo" ColumnName="fl_tipo" />
+          <ScalarProperty Name="fl_ativo" ColumnName="fl_ativo" />
+          <ScalarProperty Name="cd_setor" ColumnName="cd_setor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
